@@ -1,26 +1,26 @@
-# GTA 6 Meme — "Waited 13 Years"
+# GTA 6 Meme — Called In Sick
 
-[![make.fun](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![make.fun bounty](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![Rank](https://make.fun/badge/gta6-meme-x-01/jonsonbmth/gta6-meme-x/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![Reward](https://make.fun/badge/gta6-meme-x-01/jonsonbmth/gta6-meme-x/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-Entry for make.fun's [Post a GTA 6 meme on X](https://make.fun/bounty/gta6-meme-x-01) bounty ($500).
+A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty: a gamer calls in sick for launch day — and his boss replies "See you in Vice City." The make.fun ghost sits on the bed with him, holding its magenta star coin.
 
-## The joke
+## The post
 
-Waited 13 years for GTA 6 — and the download still says 47 hours left. The make.fun ghost waits on the couch with him.
+The meme is posted on X from [@wwwwenwenwin](https://x.com/wwwwenwenwin) with the caption in `CAPTION.txt`. The post's address is recorded in `POST.json`.
 
 ## Files
 
-- `meme.png` — the meme (first picture of the post)
-- `CAPTION.txt` — the exact post text for X
-- `POST.json` — the post's address on X (placeholder until the post is live)
-- `main.ts` — copies `POST.json` to the output directory (Node 22, standard library only)
+- `meme.png` — the meme image (AI-generated in this session)
+- `CAPTION.txt` — the exact post text
+- `POST.json` — the X post's address
+- `main.ts` — copies `POST.json` to the output directory
 
-## How to post
+## Run
 
-1. Post `meme.png` on X from a public account with the text in `CAPTION.txt`.
-2. Copy the post's address (`https://x.com/<handle>/status/<id>`) into `POST.json`.
-3. Run `mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts` to check the program.
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 <sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
